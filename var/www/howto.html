@@ -1,0 +1,52 @@
+<html>
+    <head>
+    <title>Easy Cam</title>
+	<meta charst="utf-8">
+	<meta name="viewport" content="width=device - width,initial-scale=1">
+	<script  src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+    <body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.php">Easy HD-Surveillance Cam</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="download.php">Download</a></li>
+	     <li class=""active><a href="howto.html">How to</a<</li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+ <br><br>
+<div class="container">
+<h1>How to watch <mark>live video?</mark></h1>
+<dl>
+<dt>Smartphone</dt>
+<dd> - Download VLC player, if not available. </dd>
+<dd> - Goto Stream option</dd>
+<dd> - Enter "rtsp://{ipaddress}:8554/</dd></dl>
+<dl>Computer
+<dt>Configuration</dt>
+<dd> - Download VLC Player, if not available</dd>
+<dd> - Goto Tools->Preference</dd>
+<dd> - Select "Input/Codecs" Tab -> Enable "RTP over RTSP(TCP)"</dd>
+<dd> - Click Save</dd>
+<dd> - Restart the application,for first time</dd>
+<dd> - Open VLC Player</dd>
+<dd> - <kdb>Ctrl+N </kdb>or Media->Open Network Stream</dd>
+<dd> - Enter Network URL as "rtsp://{ipaddress}:8554/"</dd></dl>
+</div>
+</body>
+</html>
